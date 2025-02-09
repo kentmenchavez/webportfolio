@@ -217,11 +217,16 @@ main {
 }
 
 .verse span {
-    color: #25a096;
+    color: #00BD00;
     font-weight: bold!important;
     font-size: 1rem;
     letter-spacing: 1px;
 }
+
+.verse a {
+    text-decoration: none;
+  }
+  
 
 .profile .about {
     margin-top: 8px;
@@ -651,6 +656,7 @@ main {
     bottom: 0;
     width: 1px;
     background-image: linear-gradient(to top, rgba(144, 183, 219, 0) -20%, #90B7DB 50%, rgba(144, 183, 219, 0) 120%);
+    z-index: 999;
 }
 
 .centercol::before {
@@ -715,7 +721,7 @@ main {
         width: 150px !important;
         height: auto;
     }
-
+    
     #skills .skills4 {
         display: block !important;
         padding: 0px 20px !important;
@@ -745,7 +751,7 @@ main {
         font-size: 1.5rem !important;
     }
     
-    #skills .skill1, #skills .skill0, #skills-icons-sm1 {
+    #skills .skill1, #skills .skill0, #skills-icons-sm1, #skills .skill2 {
         display: block !important;
         align-items: center !important;
         justify-content: center !important;
